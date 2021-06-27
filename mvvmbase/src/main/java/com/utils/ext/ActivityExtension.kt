@@ -8,7 +8,7 @@ import android.net.ConnectivityManager
 import android.os.Bundle
 
 /**
- * Mahesh Saini on 08:29 7/20/18
+ * Raghavendra on 08:29 7/20/18
  */
 fun Activity.startActivity(clazz: Class<*>) {
     val intent = Intent(this, clazz)

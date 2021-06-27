@@ -7,7 +7,7 @@ import androidx.databinding.BindingAdapter
 import com.utils.ext.clickWithDebounce
 
 /**
- * Mahesh Saini on 09:14 2018-12-21
+ * Raghavendra on 09:14 2018-12-21
  */
 object BindingUtils {
 

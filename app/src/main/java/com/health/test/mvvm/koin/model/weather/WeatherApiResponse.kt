@@ -45,17 +45,17 @@ data class WeatherApiResponse(
             @SerializedName("clouds")
             var clouds: Clouds?,
             @SerializedName("dt")
-            var dt: Int?, // 1624687200
+            var dt: Double?, // 1624687200
             @SerializedName("dt_txt")
             var dtTxt: String?, // 2021-06-26 06:00:00
             @SerializedName("main")
             var main: Main?,
             @SerializedName("pop")
-            var pop: Int?, // 0
+            var pop: Double?, // 0
             @SerializedName("sys")
             var sys: Sys?,
             @SerializedName("visibility")
-            var visibility: Int?, // 10000
+            var visibility: Double?, // 10000
             @SerializedName("weather")
             var weather: List<Weather?>?,
             @SerializedName("wind")
@@ -63,20 +63,20 @@ data class WeatherApiResponse(
     ) {
         data class Clouds(
                 @SerializedName("all")
-                var all: Int? // 0
+                var all: Double? // 0
         )
 
         data class Main(
                 @SerializedName("feels_like")
                 var feelsLike: Double?, // 313.23
                 @SerializedName("grnd_level")
-                var grndLevel: Int?, // 973
+                var grndLevel: Double?, // 973
                 @SerializedName("humidity")
-                var humidity: Int?, // 27
+                var humidity: Double?, // 27
                 @SerializedName("pressure")
-                var pressure: Int?, // 1002
+                var pressure: Double?, // 1002
                 @SerializedName("sea_level")
-                var seaLevel: Int?, // 1002
+                var seaLevel: Double?, // 1002
                 @SerializedName("temp")
                 var temp: Double?, // 312.12
                 @SerializedName("temp_kf")
@@ -98,14 +98,14 @@ data class WeatherApiResponse(
                 @SerializedName("icon")
                 var icon: String?, // 01d
                 @SerializedName("id")
-                var id: Int?, // 800
+                var id: Double?, // 800
                 @SerializedName("main")
                 var main: String? // Clear
         )
 
         data class Wind(
                 @SerializedName("deg")
-                var deg: Int?, // 223
+                var deg: Double?, // 223
                 @SerializedName("gust")
                 var gust: Double?, // 3.41
                 @SerializedName("speed")

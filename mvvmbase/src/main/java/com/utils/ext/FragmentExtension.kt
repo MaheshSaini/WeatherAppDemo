@@ -7,7 +7,7 @@ import android.os.Bundle
 import androidx.fragment.app.Fragment
 
 /**
- * Mahesh Saini on 08:38 7/20/18
+ * Raghavendra on 08:38 7/20/18
  */
 fun Fragment.startActivity(clazz: Class<*>) {
     val intent = Intent(context, clazz)

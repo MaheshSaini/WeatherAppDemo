@@ -79,9 +79,10 @@ class DetailsActivity : BaseActivity<ActivityShowDetailsBindingImpl, DetailsActi
         }
 
         if (Utils.checkInternetConnection(Objects.requireNonNull(this))) {
-            showProgress()
+            //showProgress()
             progressBar?.visibility = View.VISIBLE
             getViewModel().getDataFromServer("" + locationTrack?.latitude, "" + locationTrack?.longitude, "ae905ac872f2219493514849af1c407e")
+
         } else {
             Toast.makeText(this, getString(R.string.check_internet), Toast.LENGTH_LONG).show()
 

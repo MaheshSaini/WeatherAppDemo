@@ -7,7 +7,7 @@ import io.reactivex.disposables.Disposable
 import java.lang.ref.WeakReference
 
 /**
- * Mahesh Saini on 08:43 8/20/18
+ * Raghavendra on 08:43 8/20/18
  */
 abstract class BaseViewModel<N>(private var schedulerProvider: SchedulerProvider) : ViewModel() {
     private var repoManager: RepoManager? = null

@@ -5,7 +5,7 @@ import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentStatePagerAdapter
 
 /**
- * Mahesh Saini on 20:35 9/1/18
+ * Raghavendra on 20:35 9/1/18
  */
 open class ViewPagerAdapter(
         fm: FragmentManager,

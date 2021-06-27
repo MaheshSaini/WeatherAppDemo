@@ -3,7 +3,7 @@ package com.event
 import android.os.Bundle
 
 /**
- * Mahesh Saini on 14:56 8/20/18
+ * Raghavendra on 14:56 8/20/18
  */
 class EventNextFragment {
 

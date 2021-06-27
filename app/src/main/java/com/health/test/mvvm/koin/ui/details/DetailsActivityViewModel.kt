@@ -13,7 +13,7 @@ import io.reactivex.schedulers.Schedulers
 import retrofit2.create
 
 /**
- * Mahesh Saini on 10:13 2018-12-19
+ * Raghavendra on 10:13 2018-12-19
  */
 class DetailsActivityViewModel(dataManager: DataManager, schedulerProvider: SchedulerProvider) :
         BaseViewModel<DetailsActivityNavigator>(dataManager, schedulerProvider) {

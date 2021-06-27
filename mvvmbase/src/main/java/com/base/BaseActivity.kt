@@ -19,7 +19,7 @@ import com.widget.Boast
 import io.github.inflationx.viewpump.ViewPumpContextWrapper
 
 /**
- * Mahesh Saini on 09:27 8/20/18
+ * Raghavendra on 09:27 8/20/18
  */
 abstract class BaseActivity<T : ViewDataBinding, V : BaseViewModel<*>> : AppCompatActivity() {
 

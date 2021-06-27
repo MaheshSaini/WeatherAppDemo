@@ -19,7 +19,7 @@ val appModule: Module = module {
 
     single { SchedulerProvider() }
 
-    single { AppPrefsHelper(get(), "Mahesh", get()) as PrefsHelper }
+    single { AppPrefsHelper(get(), "Raghavendra", get()) as PrefsHelper }
 
     single { AppDataManager(get()) as DataManager }
 

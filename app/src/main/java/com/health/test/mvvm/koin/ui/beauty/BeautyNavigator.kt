@@ -3,7 +3,7 @@ package com.health.test.mvvm.koin.ui.beauty
 import com.health.test.mvvm.koin.model.TestDataResponse
 
 /**
- * Mahesh Saini
+ * Raghavendra
  */
 interface BeautyNavigator {
     fun hideProgress()

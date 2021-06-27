@@ -12,7 +12,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.widget.Boast
 
 /**
- * Mahesh Saini on 09:48 8/20/18
+ * Raghavendra on 09:48 8/20/18
  */
 abstract class BaseFragment<T : ViewDataBinding, V : BaseViewModel<*>> : Fragment(),
         ViewTreeObserver.OnGlobalLayoutListener {

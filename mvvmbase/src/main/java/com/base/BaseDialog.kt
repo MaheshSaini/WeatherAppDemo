@@ -18,7 +18,7 @@ import androidx.lifecycle.ViewModel
 import com.widget.Boast
 
 /**
- * Mahesh Saini on 11:32 7/20/18
+ * Raghavendra on 11:32 7/20/18
  */
 abstract class BaseDialog<T : ViewDataBinding, V : ViewModel> : androidx.fragment.app.DialogFragment() {
 
